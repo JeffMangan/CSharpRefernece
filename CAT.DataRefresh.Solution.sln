@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAT.DataRefresh.Common", "CAT.DataRefresh.Common\CAT.DataRefresh.Common.csproj", "{D96E2426-06F4-4845-9C07-9C60976DF5B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAT.DataRefresh.Domain", "CAT.DataRefresh.Domain\CAT.DataRefresh.Domain.csproj", "{E24BAF65-485A-441B-AEC7-3348035FCD46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAT.DataRefresh.Infrastructure", "CAT.DataRefresh.Infrastructure\CAT.DataRefresh.Infrastructure.csproj", "{C32A857E-0D99-488B-8632-5F55F21AD0A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAT.DataRefresh.Application", "CAT.DataRefresh.Application\CAT.DataRefresh.Application.csproj", "{D50B5FC3-0313-4DFD-B1EA-D09C176F8167}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAT.DataRefresh.Client.Tests", "CAT.DataRefresh.Client.Tests\CAT.DataRefresh.Client.Tests.csproj", "{F3AF0AAA-6025-4658-B7B7-4D237363764B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAT.DataRefresh.Client", "CAT.DataRefresh.Client\CAT.DataRefresh.Client.csproj", "{A0A43CA3-04A1-49E4-8127-FB0CADB28786}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D96E2426-06F4-4845-9C07-9C60976DF5B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D96E2426-06F4-4845-9C07-9C60976DF5B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D96E2426-06F4-4845-9C07-9C60976DF5B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D96E2426-06F4-4845-9C07-9C60976DF5B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E24BAF65-485A-441B-AEC7-3348035FCD46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E24BAF65-485A-441B-AEC7-3348035FCD46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E24BAF65-485A-441B-AEC7-3348035FCD46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E24BAF65-485A-441B-AEC7-3348035FCD46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C32A857E-0D99-488B-8632-5F55F21AD0A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C32A857E-0D99-488B-8632-5F55F21AD0A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C32A857E-0D99-488B-8632-5F55F21AD0A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C32A857E-0D99-488B-8632-5F55F21AD0A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D50B5FC3-0313-4DFD-B1EA-D09C176F8167}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D50B5FC3-0313-4DFD-B1EA-D09C176F8167}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D50B5FC3-0313-4DFD-B1EA-D09C176F8167}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D50B5FC3-0313-4DFD-B1EA-D09C176F8167}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3AF0AAA-6025-4658-B7B7-4D237363764B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3AF0AAA-6025-4658-B7B7-4D237363764B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3AF0AAA-6025-4658-B7B7-4D237363764B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3AF0AAA-6025-4658-B7B7-4D237363764B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0A43CA3-04A1-49E4-8127-FB0CADB28786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0A43CA3-04A1-49E4-8127-FB0CADB28786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0A43CA3-04A1-49E4-8127-FB0CADB28786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0A43CA3-04A1-49E4-8127-FB0CADB28786}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

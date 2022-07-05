@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <AssemblyName>CAT.DataRefresh.Application</AssemblyName>
+        <RootNamespace>CAT.DataRefresh.Application</RootNamespace>
+        <Company>CAT.DataRefresh.Application</Company>
+        <Product>CAT.DataRefresh.Application</Product>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\CAT.DataRefresh.Data\CAT.DataRefresh.Data.csproj" />
+      <ProjectReference Include="..\CAT.DataRefresh.Entity\CAT.DataRefresh.Entity.csproj" />
+      <ProjectReference Include="..\CAT.DataRefresh.Infrastructure\CAT.DataRefresh.Infrastructure.csproj" />
+    </ItemGroup>
+
+</Project>

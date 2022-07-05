@@ -1,0 +1,16 @@
+/home/jeffmangan/Documents/Projects/CAT/MicroServiceTemplate/CAT.DataRefresh.Client/bin/Debug/netcoreapp3.1/CAT.DataRefresh.Client.deps.json
+/home/jeffmangan/Documents/Projects/CAT/MicroServiceTemplate/CAT.DataRefresh.Client/bin/Debug/netcoreapp3.1/CAT.DataRefresh.Client.dll
+/home/jeffmangan/Documents/Projects/CAT/MicroServiceTemplate/CAT.DataRefresh.Client/bin/Debug/netcoreapp3.1/CAT.DataRefresh.Client.pdb
+/home/jeffmangan/Documents/Projects/CAT/MicroServiceTemplate/CAT.DataRefresh.Client/bin/Debug/netcoreapp3.1/CAT.DataRefresh.Application.dll
+/home/jeffmangan/Documents/Projects/CAT/MicroServiceTemplate/CAT.DataRefresh.Client/bin/Debug/netcoreapp3.1/CAT.DataRefresh.Domain.dll
+/home/jeffmangan/Documents/Projects/CAT/MicroServiceTemplate/CAT.DataRefresh.Client/bin/Debug/netcoreapp3.1/CAT.DataRefresh.Infrastructure.dll
+/home/jeffmangan/Documents/Projects/CAT/MicroServiceTemplate/CAT.DataRefresh.Client/bin/Debug/netcoreapp3.1/CAT.DataRefresh.Application.pdb
+/home/jeffmangan/Documents/Projects/CAT/MicroServiceTemplate/CAT.DataRefresh.Client/bin/Debug/netcoreapp3.1/CAT.DataRefresh.Domain.pdb
+/home/jeffmangan/Documents/Projects/CAT/MicroServiceTemplate/CAT.DataRefresh.Client/bin/Debug/netcoreapp3.1/CAT.DataRefresh.Infrastructure.pdb
+/home/jeffmangan/Documents/Projects/CAT/MicroServiceTemplate/CAT.DataRefresh.Client/obj/Debug/netcoreapp3.1/CAT.DataRefresh.Client.csprojAssemblyReference.cache
+/home/jeffmangan/Documents/Projects/CAT/MicroServiceTemplate/CAT.DataRefresh.Client/obj/Debug/netcoreapp3.1/CAT.DataRefresh.Client.AssemblyInfoInputs.cache
+/home/jeffmangan/Documents/Projects/CAT/MicroServiceTemplate/CAT.DataRefresh.Client/obj/Debug/netcoreapp3.1/CAT.DataRefresh.Client.AssemblyInfo.cs
+/home/jeffmangan/Documents/Projects/CAT/MicroServiceTemplate/CAT.DataRefresh.Client/obj/Debug/netcoreapp3.1/CAT.DataRefresh.Client.csproj.CoreCompileInputs.cache
+/home/jeffmangan/Documents/Projects/CAT/MicroServiceTemplate/CAT.DataRefresh.Client/obj/Debug/netcoreapp3.1/CAT.DataRefresh.Client.csproj.CopyComplete
+/home/jeffmangan/Documents/Projects/CAT/MicroServiceTemplate/CAT.DataRefresh.Client/obj/Debug/netcoreapp3.1/CAT.DataRefresh.Client.dll
+/home/jeffmangan/Documents/Projects/CAT/MicroServiceTemplate/CAT.DataRefresh.Client/obj/Debug/netcoreapp3.1/CAT.DataRefresh.Client.pdb

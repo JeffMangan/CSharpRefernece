@@ -1,0 +1,65 @@
+﻿// https://www.c-sharpcorner.com/article/snowflake-with-c-sharp-net-core/
+// https://medium.com/snowflake/better-net-client-for-snowflake-db-ecb48c48c872
+using System;
+using System.Collections.Generic;
+using System.Data.Common;
+using System.Threading.Tasks;
+using CAT.DataRefresh.Infrastructure.Repository;
+using Snowflake.Data.Client;
+
+namespace Cat.DataRefresh.Infrastructure.Repository
+{
+    public class SnowFlake : IRepository
+    {
+        public SnowFlake(string account, string host, string port, string role, string warehouse, string userName,
+            string password, string database, string schema)
+        {
+            _connectionString = @"scheme=https;
+                ACCOUNT=xxx;
+                HOST=xxx.us-east-1.snowflakecomputing.com;
+                port=443;
+                ROLE=sysadmin;
+                WAREHOUSE=compute_wh;
+                USER=xxx;
+                PASSWORD=XXXXXXX;
+                DB=xxx;
+                SCHEMA=EM";
+        }
+
+        private readonly string _connectionString;
+
+        public async Task<List<Output>> Get(Input input)
+        {
+            await using var conn = new SnowflakeDbConnection {ConnectionString = _connectionString};
+            conn.Open();
+            var cmd = conn.CreateCommand();
+            cmd.CommandText = "";
+            Task<DbDataReader> reader = cmd.ExecuteReaderAsync();
+            return new List<Output>();
+        }
+
+        public async Task<int> Put(Input input)
+        {
+            await using var conn = new SnowflakeDbConnection {ConnectionString = _connectionString};
+            conn.Open();
+            var cmd = conn.CreateCommand();
+            cmd.CommandText = "";
+            Task<int> rowsAffected = cmd.ExecuteNonQueryAsync();
+            await conn.CloseAsync();
+            return rowsAffected.Result; //items affected
+        }
+
+        public async Task<int> Delete(Input input)
+        {
+            await using var conn = new SnowflakeDbConnection {ConnectionString = _connectionString};
+            conn.Open();
+            var cmd = conn.CreateCommand();
+            cmd.CommandText = "";
+            Task<int> rowsAffected = cmd.ExecuteNonQueryAsync();
+            await conn.CloseAsync();
+            return rowsAffected.Result; //items affected
+        }
+
+    }
+
+}
