@@ -1,9 +1,0 @@
-/home/jeffmangan/Documents/Projects/SampleCompany/Example.Solution/SampleCompany.Solution/SampleCompany.Service/bin/Debug/netcoreapp3.1/SampleCompany.Service.deps.json
-/home/jeffmangan/Documents/Projects/SampleCompany/Example.Solution/SampleCompany.Solution/SampleCompany.Service/bin/Debug/netcoreapp3.1/SampleCompany.Service.dll
-/home/jeffmangan/Documents/Projects/SampleCompany/Example.Solution/SampleCompany.Solution/SampleCompany.Service/bin/Debug/netcoreapp3.1/SampleCompany.Service.pdb
-/home/jeffmangan/Documents/Projects/SampleCompany/Example.Solution/SampleCompany.Solution/SampleCompany.Service/obj/Debug/netcoreapp3.1/SampleCompany.Service.csprojAssemblyReference.cache
-/home/jeffmangan/Documents/Projects/SampleCompany/Example.Solution/SampleCompany.Solution/SampleCompany.Service/obj/Debug/netcoreapp3.1/SampleCompany.Service.AssemblyInfoInputs.cache
-/home/jeffmangan/Documents/Projects/SampleCompany/Example.Solution/SampleCompany.Solution/SampleCompany.Service/obj/Debug/netcoreapp3.1/SampleCompany.Service.AssemblyInfo.cs
-/home/jeffmangan/Documents/Projects/SampleCompany/Example.Solution/SampleCompany.Solution/SampleCompany.Service/obj/Debug/netcoreapp3.1/SampleCompany.Service.csproj.CoreCompileInputs.cache
-/home/jeffmangan/Documents/Projects/SampleCompany/Example.Solution/SampleCompany.Solution/SampleCompany.Service/obj/Debug/netcoreapp3.1/SampleCompany.Service.dll
-/home/jeffmangan/Documents/Projects/SampleCompany/Example.Solution/SampleCompany.Solution/SampleCompany.Service/obj/Debug/netcoreapp3.1/SampleCompany.Service.pdb
