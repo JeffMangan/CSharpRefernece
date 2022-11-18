@@ -1,9 +1,0 @@
-/home/jeffmangan/Documents/Projects/CAT/DataRefresh.Solution/CAT.DataRefresh.Solution/CAT.DataRefresh.Service/bin/Debug/netcoreapp3.1/CAT.DataRefresh.Service.deps.json
-/home/jeffmangan/Documents/Projects/CAT/DataRefresh.Solution/CAT.DataRefresh.Solution/CAT.DataRefresh.Service/bin/Debug/netcoreapp3.1/CAT.DataRefresh.Service.dll
-/home/jeffmangan/Documents/Projects/CAT/DataRefresh.Solution/CAT.DataRefresh.Solution/CAT.DataRefresh.Service/bin/Debug/netcoreapp3.1/CAT.DataRefresh.Service.pdb
-/home/jeffmangan/Documents/Projects/CAT/DataRefresh.Solution/CAT.DataRefresh.Solution/CAT.DataRefresh.Service/obj/Debug/netcoreapp3.1/CAT.DataRefresh.Service.csprojAssemblyReference.cache
-/home/jeffmangan/Documents/Projects/CAT/DataRefresh.Solution/CAT.DataRefresh.Solution/CAT.DataRefresh.Service/obj/Debug/netcoreapp3.1/CAT.DataRefresh.Service.AssemblyInfoInputs.cache
-/home/jeffmangan/Documents/Projects/CAT/DataRefresh.Solution/CAT.DataRefresh.Solution/CAT.DataRefresh.Service/obj/Debug/netcoreapp3.1/CAT.DataRefresh.Service.AssemblyInfo.cs
-/home/jeffmangan/Documents/Projects/CAT/DataRefresh.Solution/CAT.DataRefresh.Solution/CAT.DataRefresh.Service/obj/Debug/netcoreapp3.1/CAT.DataRefresh.Service.csproj.CoreCompileInputs.cache
-/home/jeffmangan/Documents/Projects/CAT/DataRefresh.Solution/CAT.DataRefresh.Solution/CAT.DataRefresh.Service/obj/Debug/netcoreapp3.1/CAT.DataRefresh.Service.dll
-/home/jeffmangan/Documents/Projects/CAT/DataRefresh.Solution/CAT.DataRefresh.Solution/CAT.DataRefresh.Service/obj/Debug/netcoreapp3.1/CAT.DataRefresh.Service.pdb

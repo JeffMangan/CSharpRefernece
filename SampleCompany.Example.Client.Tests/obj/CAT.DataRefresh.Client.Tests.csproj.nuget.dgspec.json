@@ -1,0 +1,470 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/jeffmangan/Documents/Projects/SampleCompany/MicroServiceTemplate/SampleCompany.Client.Tests/SampleCompany.Client.Tests.csproj": {}
+  },
+  "projects": {
+    "/home/jeffmangan/Documents/Projects/SampleCompany/MicroServiceTemplate/SampleCompany.Application/SampleCompany.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jeffmangan/Documents/Projects/SampleCompany/MicroServiceTemplate/SampleCompany.Application/SampleCompany.Application.csproj",
+        "projectName": "SampleCompany.Application",
+        "projectPath": "/home/jeffmangan/Documents/Projects/SampleCompany/MicroServiceTemplate/SampleCompany.Application/SampleCompany.Application.csproj",
+        "packagesPath": "/home/jeffmangan/.nuget/packages/",
+        "outputPath": "/home/jeffmangan/Documents/Projects/SampleCompany/MicroServiceTemplate/SampleCompany.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jeffmangan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/home/jeffmangan/Documents/Projects/SampleCompany/MicroServiceTemplate/SampleCompany.Data/SampleCompany.Data.csproj": {
+                "projectPath": "/home/jeffmangan/Documents/Projects/SampleCompany/MicroServiceTemplate/SampleCompany.Data/SampleCompany.Data.csproj"
+              },
+              "/home/jeffmangan/Documents/Projects/SampleCompany/MicroServiceTemplate/SampleCompany.Entity/SampleCompany.Entity.csproj": {
+                "projectPath": "/home/jeffmangan/Documents/Projects/SampleCompany/MicroServiceTemplate/SampleCompany.Entity/SampleCompany.Entity.csproj"
+              },
+              "/home/jeffmangan/Documents/Projects/SampleCompany/MicroServiceTemplate/SampleCompany.Infrastructure/SampleCompany.Infrastructure.csproj": {
+                "projectPath": "/home/jeffmangan/Documents/Projects/SampleCompany/MicroServiceTemplate/SampleCompany.Infrastructure/SampleCompany.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/jeffmangan/Documents/Projects/SampleCompany/MicroServiceTemplate/SampleCompany.Client.Tests/SampleCompany.Client.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jeffmangan/Documents/Projects/SampleCompany/MicroServiceTemplate/SampleCompany.Client.Tests/SampleCompany.Client.Tests.csproj",
+        "projectName": "SampleCompany.Client.Tests",
+        "projectPath": "/home/jeffmangan/Documents/Projects/SampleCompany/MicroServiceTemplate/SampleCompany.Client.Tests/SampleCompany.Client.Tests.csproj",
+        "packagesPath": "/home/jeffmangan/.nuget/packages/",
+        "outputPath": "/home/jeffmangan/Documents/Projects/SampleCompany/MicroServiceTemplate/SampleCompany.Client.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jeffmangan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/home/jeffmangan/Documents/Projects/SampleCompany/MicroServiceTemplate/SampleCompany.Client/SampleCompany.Client.csproj": {
+                "projectPath": "/home/jeffmangan/Documents/Projects/SampleCompany/MicroServiceTemplate/SampleCompany.Client/SampleCompany.Client.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Amazon.Lambda.APIGatewayEvents": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "Amazon.Lambda.TestUtilities": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.16.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/jeffmangan/Documents/Projects/SampleCompany/MicroServiceTemplate/SampleCompany.Client/SampleCompany.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jeffmangan/Documents/Projects/SampleCompany/MicroServiceTemplate/SampleCompany.Client/SampleCompany.Client.csproj",
+        "projectName": "SampleCompany.Client",
+        "projectPath": "/home/jeffmangan/Documents/Projects/SampleCompany/MicroServiceTemplate/SampleCompany.Client/SampleCompany.Client.csproj",
+        "packagesPath": "/home/jeffmangan/.nuget/packages/",
+        "outputPath": "/home/jeffmangan/Documents/Projects/SampleCompany/MicroServiceTemplate/SampleCompany.Client/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jeffmangan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/home/jeffmangan/Documents/Projects/SampleCompany/MicroServiceTemplate/SampleCompany.Application/SampleCompany.Application.csproj": {
+                "projectPath": "/home/jeffmangan/Documents/Projects/SampleCompany/MicroServiceTemplate/SampleCompany.Application/SampleCompany.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Amazon.Lambda.APIGatewayEvents": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "Amazon.Lambda.Core": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Amazon.Lambda.Serialization.Json": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/jeffmangan/Documents/Projects/SampleCompany/MicroServiceTemplate/SampleCompany.Data/SampleCompany.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jeffmangan/Documents/Projects/SampleCompany/MicroServiceTemplate/SampleCompany.Data/SampleCompany.Data.csproj",
+        "projectName": "SampleCompany.Data",
+        "projectPath": "/home/jeffmangan/Documents/Projects/SampleCompany/MicroServiceTemplate/SampleCompany.Data/SampleCompany.Data.csproj",
+        "packagesPath": "/home/jeffmangan/.nuget/packages/",
+        "outputPath": "/home/jeffmangan/Documents/Projects/SampleCompany/MicroServiceTemplate/SampleCompany.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jeffmangan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/home/jeffmangan/Documents/Projects/SampleCompany/MicroServiceTemplate/SampleCompany.Domain/SampleCompany.Domain.csproj": {
+                "projectPath": "/home/jeffmangan/Documents/Projects/SampleCompany/MicroServiceTemplate/SampleCompany.Domain/SampleCompany.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/jeffmangan/Documents/Projects/SampleCompany/MicroServiceTemplate/SampleCompany.Domain/SampleCompany.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jeffmangan/Documents/Projects/SampleCompany/MicroServiceTemplate/SampleCompany.Domain/SampleCompany.Domain.csproj",
+        "projectName": "SampleCompany.Domain",
+        "projectPath": "/home/jeffmangan/Documents/Projects/SampleCompany/MicroServiceTemplate/SampleCompany.Domain/SampleCompany.Domain.csproj",
+        "packagesPath": "/home/jeffmangan/.nuget/packages/",
+        "outputPath": "/home/jeffmangan/Documents/Projects/SampleCompany/MicroServiceTemplate/SampleCompany.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jeffmangan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/home/jeffmangan/Documents/Projects/SampleCompany/MicroServiceTemplate/SampleCompany.Entity/SampleCompany.Entity.csproj": {
+                "projectPath": "/home/jeffmangan/Documents/Projects/SampleCompany/MicroServiceTemplate/SampleCompany.Entity/SampleCompany.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/jeffmangan/Documents/Projects/SampleCompany/MicroServiceTemplate/SampleCompany.Entity/SampleCompany.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jeffmangan/Documents/Projects/SampleCompany/MicroServiceTemplate/SampleCompany.Entity/SampleCompany.Entity.csproj",
+        "projectName": "SampleCompany.Entity",
+        "projectPath": "/home/jeffmangan/Documents/Projects/SampleCompany/MicroServiceTemplate/SampleCompany.Entity/SampleCompany.Entity.csproj",
+        "packagesPath": "/home/jeffmangan/.nuget/packages/",
+        "outputPath": "/home/jeffmangan/Documents/Projects/SampleCompany/MicroServiceTemplate/SampleCompany.Entity/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jeffmangan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/jeffmangan/Documents/Projects/SampleCompany/MicroServiceTemplate/SampleCompany.Infrastructure/SampleCompany.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jeffmangan/Documents/Projects/SampleCompany/MicroServiceTemplate/SampleCompany.Infrastructure/SampleCompany.Infrastructure.csproj",
+        "projectName": "SampleCompany.Infrastructure",
+        "projectPath": "/home/jeffmangan/Documents/Projects/SampleCompany/MicroServiceTemplate/SampleCompany.Infrastructure/SampleCompany.Infrastructure.csproj",
+        "packagesPath": "/home/jeffmangan/.nuget/packages/",
+        "outputPath": "/home/jeffmangan/Documents/Projects/SampleCompany/MicroServiceTemplate/SampleCompany.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jeffmangan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/home/jeffmangan/Documents/Projects/SampleCompany/MicroServiceTemplate/SampleCompany.Domain/SampleCompany.Domain.csproj": {
+                "projectPath": "/home/jeffmangan/Documents/Projects/SampleCompany/MicroServiceTemplate/SampleCompany.Domain/SampleCompany.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AWSSDK": {
+              "target": "Package",
+              "version": "[2.3.55.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.5.1, )"
+            },
+            "Snowflake.Data": {
+              "target": "Package",
+              "version": "[1.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

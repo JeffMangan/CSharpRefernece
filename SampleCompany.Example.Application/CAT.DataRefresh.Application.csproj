@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <AssemblyName>SampleCompany.Application</AssemblyName>
+        <RootNamespace>SampleCompany.Application</RootNamespace>
+        <Company>SampleCompany.Application</Company>
+        <Product>SampleCompany.Application</Product>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\SampleCompany.Data\SampleCompany.Data.csproj" />
+      <ProjectReference Include="..\SampleCompany.Entity\SampleCompany.Entity.csproj" />
+      <ProjectReference Include="..\SampleCompany.Infrastructure\SampleCompany.Infrastructure.csproj" />
+    </ItemGroup>
+
+</Project>
